@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 24px;
+    
+}
+
+header{
+    padding: 16px 0;
+    background-color: #401274;
+    color: #d2efb6;
+}
+
+header h1,ul,body, form button, form input, form textarea{
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+}
+
+header nav li{
+    display: inline;
+    font-size: 18px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #d2efb6;
+    margin-right: 8px;
+}
+
+header .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    display: flex;
+    
+}
+
+section{
+    padding: 24px;
+    color: #401274;
+}
+
+section h2{ 
+    margin-bottom: 24px;
+}
+
+section img{ 
+   max-width: 50%;
+   margin-right: 8px;
+}
+
+.redesSociais img{
+    height: 36px;
+    align-items: center;
+}
+
+.redesSociais li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.redesSociais li a{
+    text-decoration: none;
+}
+
+
+.metodoContato{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+#contato .container{
+    display: block;
+    
+}
+
+form button{
+    background-color: #401274;
+    color: #d2efb6;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #7438b8;
+}
+
+form input:focus, form textarea:focus{
+    outline: #401274;
+}
+
+footer{
+    display: flex;
+    background-color: #401274;
+    padding: 24px;
+    color: #d2efb6;
+    justify-content: center;
+
+}
